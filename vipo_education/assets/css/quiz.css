@@ -1,14 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     scroll-behavior: smooth;
     scroll-padding-top: 10vh;
 }
+
 body {
-    background-image:linear-gradient(to  left,#5333ed,#2cd4d9);
+    background-image: linear-gradient(to left, #5333ed, #2cd4d9);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
     min-height: 555vh;
@@ -17,20 +19,21 @@ body {
     scroll-padding-top: 10vh;
 }
 
-@keyframes surgi{
-    0%{
+@keyframes surgi {
+    0% {
         opacity: 0;
     }
-    100%{
+
+    100% {
         opacity: 1;
     }
 }
 
-#tosca{
+#tosca {
     height: 150vh;
 }
 
-.menu{
+.menu {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -43,55 +46,62 @@ body {
     top: 0;
 }
 
-table,th,td{
+table,
+th,
+td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 10px;
 }
 
-.pergunta img{
+.pergunta img {
     border-radius: 10px;
 }
 
-.conteiner{
+.conteiner {
     margin-top: 10vh;
     height: 100vh;
 }
-h1{
+
+h1 {
     font-weight: bold;
     text-align: center;
     font-size: 2.5rem;
 }
-.pergunta{
+
+.pergunta {
     background-color: white;
     border: 3px solid rgb(202, 5, 5);
     width: 80%;
     padding: 35px 50px;
     border-radius: 10px;
-    margin:  0 auto;
+    margin: 0 auto;
     box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.349);
     margin-bottom: 30px;
 }
-.pergunta p{
+
+.pergunta p {
     margin: 0 auto;
-    text-align:  justify;
+    text-align: justify;
     font-size: 1.2rem;
 }
-.block{
+
+.block {
     margin: 0 auto;
     height: 8vh;
     width: 90%;
 }
 
-i{
+i {
     font-size: 30px;
     color: #5333ed;
 }
 
-.resposta p{
+.resposta p {
     width: 45%;
 }
-.resposta{
+
+.resposta {
     margin: 10px auto;
     display: flex;
     justify-content: space-around;
@@ -99,10 +109,11 @@ i{
 
 }
 
-input{
+input {
     border: 50px #2cd4d9;
 }
-.link{
+
+.link {
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -118,9 +129,10 @@ input{
     letter-spacing: 3px;
     text-transform: uppercase;
     margin-bottom: 40px;
+    transition: all .5s ease;
 }
 
-.btn{
+.btn {
     background-color: rgb(202, 5, 5);
     padding: 10px;
     width: 100%;
@@ -131,18 +143,29 @@ input{
     font-size: 1.5em;
     font-weight: bold;
     letter-spacing: 3px;
+    cursor: pointer;
+    transition: all .5s ease;
 }
 
-#rebelde{
-   padding: 30px 50px;
-   padding-top: 20px;
+.btn:hover,
+.link:hover {
+    transform: scale(1.1);
 }
 
-.fim{
+.btn:active,
+.link:active {
+    transform: scale(.9);
+}
+
+#rebelde {
+    padding: 30px 50px;
+    padding-top: 20px;
+}
+
+.fim {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 20vh;
 }
-

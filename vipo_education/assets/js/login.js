@@ -1,11 +1,11 @@
 const imput = document.querySelector('.login__input');
-const button = document.querySelector('.login__buttom');
+const button = document.querySelector('.login__button');
 const form = document.querySelector('.login__form');
 
 
 
 const valideInput = ({ target }) => {
-    if (target.value.length > 2 ) {
+    if (target.value.length > 2) {
         button.removeAttribute('disabled');
         return;
     }
@@ -16,7 +16,7 @@ const handleSubmit = (event) => {
     event.preventDefault();
 
     localStorage.setItem('player', imput.value);
-    window.location = 'pages/home.html';
+    window.location = 'assets/pages/home.html';
 }
 
 

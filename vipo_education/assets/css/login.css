@@ -1,28 +1,30 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background: linear-gradient(to top left,#5333ed,#2cd4d9) no-repeat top center;
+
+body {
+    background: linear-gradient(to top left, #5333ed, #2cd4d9) no-repeat top center;
     background-size: cover;
-    font-family: Arial, Helvetica, sans-serif;  
+    font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
     animation: surgi 3s forwards;
 }
-.menu{
+
+.menu {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 10vh;
-    background-color: rgba(255,255,255,1);
+    background-color: rgba(255, 255, 255, 1);
     box-shadow: 0 0 15px #222;
     position: fixed;
     top: 0;
     width: 100%;
 }
 
-.logo{
+.logo {
     width: 130px;
 }
 
@@ -35,25 +37,26 @@ body{
     align-items: center;
     margin: 50px auto;
     border-radius: 10px;
-    
+
 }
 
-.form h2{
+.form h2 {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 4px;
     font-size: 1.5rem;
-	color:#2e2e2e;
+    color: #2e2e2e;
 }
 
-.formulario{
+.formulario {
     display: flex;
-   align-items: center;
+    align-items: center;
     justify-content: center;
     width: 100%;
     height: 100vh;
 }
-.formulario .conteiner{
+
+.formulario .conteiner {
     width: 500px;
     height: 500px;
     border-radius: 10px;
@@ -61,7 +64,8 @@ body{
     background-color: white;
     box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.349);
 }
-.head{
+
+.head {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,7 +74,7 @@ body{
 
 }
 
-.login__input{
+.login__input {
     padding: 15px;
     width: 100%;
     max-width: 500px;
@@ -80,7 +84,8 @@ body{
     margin-bottom: 20px;
     font-size: 1.5em;
 }
-.login__buttom{
+
+.login__button {
     padding: 15px;
     width: 100%;
     max-width: 500px;
@@ -91,17 +96,35 @@ body{
     font-size: 1.5em;
     font-weight: bold;
     letter-spacing: 3px;
-}
-.login__buttom:disabled{
-    background-color: #ccc;
-    color: #686868;
+    cursor: pointer;
+    transition: all .5s ease;
 }
 
-@keyframes surgi{
-    0%{
+.login__button:hover {
+    transform: scale(1.1);
+}
+
+.login__button:active {
+    transform: scale(.9);
+}
+
+.login__button:disabled {
+    background-color: #ccc;
+    color: #686868;
+    cursor: not-allowed;
+}
+
+.login__button:disabled:hover,
+.login__button:disabled:active {
+    transform: scale(1);
+}
+
+@keyframes surgi {
+    0% {
         opacity: 0;
     }
-    100%{
+
+    100% {
         opacity: 1;
     }
 }

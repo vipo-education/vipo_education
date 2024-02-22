@@ -1,5 +1,5 @@
 # 🔴 Vipo Education
- repositório do projeto Vipo Education
+ Repositório do projeto Vipo Education
 
  ## 📸 Screenshots
 <img src='https://github.com/vipo-education/vipo_education/assets/158237204/07316db9-4bb3-4ef7-80f2-44a676eb4397' width='300'>

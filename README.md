@@ -27,3 +27,14 @@
 - Matemática
 - Química 
 - Sociologia
+
+## 👨‍💻 Linguagens utilizadas
+<img src="https://github.com/vipo-education/vipo_education/assets/158237204/803fdd14-a809-4def-96e1-012999709e42" width="50">
+<img src="https://github.com/vipo-education/vipo_education/assets/158237204/d4334d0f-1b22-4f36-a38f-e325ed9441ce" width="50">
+<img src="https://github.com/vipo-education/vipo_education/assets/158237204/4d51518f-1c6c-4df9-86a6-b12f8726168d" width="50">
+
+## 👥 Integrantes do grupo
+- Matheus Venceslau
+- Paulo Almeida
+- Roberto Canafistula
+- Maria Luisa

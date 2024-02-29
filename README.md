@@ -1,4 +1,5 @@
 # 🔴 Vipo Education
+
  Repositório do projeto Vipo Education
 
  ## 📸 Screenshots
@@ -38,3 +39,7 @@
 - Paulo Almeida
 - Roberto Canafistula
 - Maria Luisa
+
+  ##
+
+<img src='https://github.com/vipo-education/vipo_education/assets/158237204/b4b8dd89-8d4d-4151-a4fd-957c7e69d4bd' height='300'>
